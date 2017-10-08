@@ -1,0 +1,29 @@
+相关API：
+interrupt()
+interrupted()
+InterruptedException
+submit()
+Future<T>
+cancel()
+shutdownNow()
+
+Thread类中包含了interrupt方法用于终结一个线程，为了调用interrupt方法，必须持有Thread对象的引用。
+如果是直接用Thread类创建的线程，那获取到这个线程对象的引用当然非常简单。
+如果是用ExecutorService创建线程可以用下面两种方式调用线程的interrupt方法：
+1.关闭线程池中的所有线程：调用ExecutorService中的shutdownNow方法,它将给它启动的所有线程发送一个interrupt()方法调用。
+2.关闭线程池中的单个线程：调用ExecutorService中的submit方法启动任务，会返回一个Future对象，调用Future对象上的cancel方法，并传递参数true，就会向那个线程送一个interrupt()调用。
+
+
+interrupt方法调用结果：
+调用线程的interrupt方法，会设置线程的中断状态。线程处在不同的操作，会对中断状态有不同的响应。分为下面几种情况：
+一、线程处于阻塞状态。
+	阻塞状态又分为可中断阻塞和不可中断阻塞两种：
+	可中断阻塞是指可以抛出InterruptedException异常的阻塞操作，如sleep操作。这种阻塞操作当发生中断状态被置位时(interrupt调用)，就会抛出InterruptedException异常，进而线程就会终结。
+	不可中断阻塞是指不抛出InterruptedException异常的阻塞操作，如IO操作和Mutex操作。这种阻塞当收到中断状态置位时没有任何反应。只能关闭底层IO资源终结线程。
+	针对mutex阻塞，可以使用ReentrantLock代替synchronized。ReentrantLock中的lockInterruptibly方法可以抛出InterruptedException异常。进而当线程的中断标志被设置时，可以退出线程。
+二、线程一直处于不阻塞操作
+	如果线程一直在做计算，没有调用任何阻塞操作，则可以通过Thread的interrupted()方法检测线程的中断标志，通过该方法的返回值判断线程是否接收到interrupt通知。
+
+通过Thread的interrupt方法可以通知线程终结操作(线程的中断标志被置位)。线程收到该通知后，如果线程处于wait、sleep等阻塞操作，则该方法将抛出InterruptedException异常。
+如果线程没有处于阻塞操作，则线程可以通过interrupted方法检测线程是否被中断。
+无论是抛出InterruptedException异常还是通过interrupted方法检测中断标志后，线程的中断标志都会被恢复，以防止重复检测到线程的中断状态。
