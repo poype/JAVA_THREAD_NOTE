@@ -28,3 +28,10 @@ public class LiftOff implements Runnable {
         System.out.println();
     }
 }
+
+/*
+ 线程与任务：
+ Thread类自身不执行任何操作，它只是驱动赋予它的任务。
+ Runnable接口代表一个任务，这个接口的名字选的很糟糕，如果叫做Task应该更合理。
+ 一个线程可能对应多个任务。
+ */
