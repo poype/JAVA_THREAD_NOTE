@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41731116-3a19-475d-89cd-367a87c73182" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyThread.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +12,176 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/StudyThread$SimplePriorities.coverage" NAME="SimplePriorities Coverage Results" MODIFIED="1507426075900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>thinking.in.java.a.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/StudyThread$SerialNumberChecker.coverage" NAME="SerialNumberChecker Coverage Results" MODIFIED="1507447870104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>thinking.in.java.b.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/StudyThread$EvenChecker.coverage" NAME="EvenChecker Coverage Results" MODIFIED="1507443362407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>thinking.in.java.b.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thinking/in/java/d/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thinking/in/java/d/Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+                <element signature="e#2633#2634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thinking/in/java/d/Test3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding>
+                <element signature="e#186#193#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1338#1339#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1942#1943#0" expanded="true" />
+                <element signature="e#1976#1977#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockingQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="261" column="6" lean-forward="false" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayBlockingQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="397" column="13" lean-forward="false" selection-start-line="397" selection-start-column="13" selection-end-line="397" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Condition.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="230" column="9" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="500" column="22" lean-forward="false" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>taskCount</find>
+      <find>finally</find>
+      <find>ExceptionThread</find>
+      <find>220</find>
+      <find>initialValue</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/MainThread.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/CachedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/FixThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/SingleThreadExecutor.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/TaskWithResult.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/SleepingTask.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/SimplePriorities.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/SimpleDaemons.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/DaemonThreadFactory.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/DaemonFromFactory.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/Daemon.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/SimpleThread.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/LiftOff.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/Joining.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/ExceptionThread.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/a/CaptureUncaugthException.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/b/IntGenerator.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/b/EvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/b/EvenChecker.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/b/MutexEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/b/SerialNumberChecker.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/critial_section/Pair.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManager.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManager1.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManager2.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManipulator.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/critial_section/PairChecker.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/c/ThreadLocalVariableHolder.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/c/Accessor.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/c/终结线程理论" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/d/Test1.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/d/Test2.java" />
+        <option value="$PROJECT_DIR$/src/thinking/in/java/d/Test3.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -35,7 +195,9 @@
     <option name="width" value="1280" />
     <option name="height" value="736" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -64,6 +226,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyThread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyThread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test3.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyThread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyThread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyThread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyThread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -74,6 +302,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,7 +316,107 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test3">
+    <configuration default="false" name="SerialNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thinking.in.java.b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thinking.in.java.b.SerialNumberChecker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyThread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Accessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thinking.in.java.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thinking.in.java.c.Accessor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyThread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thinking.in.java.d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thinking.in.java.d.Test1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyThread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thinking.in.java.d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thinking.in.java.d.Test2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyThread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thinking.in.java.d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thinking.in.java.d.Test3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyThread" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -118,6 +447,160 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -139,12 +622,80 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyThread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -175,6 +726,38 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.SerialNumberChecker" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Accessor" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test3" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Accessor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SerialNumberChecker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -186,48 +769,730 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507381577241</updated>
-      <workItem from="1507381581234" duration="113000" />
+      <workItem from="1507381581234" duration="28845000" />
     </task>
+    <task id="LOCAL-00001" summary="任务和线程是两个不同的概念，线程驱动任务&#10;Runnable接口用于描述一个任务&#10;这里的LiftOff类只是定义了一个任务，还没有涉及到线程">
+      <created>1507385669441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507385669441</updated>
+    </task>
+    <task id="LOCAL-00002" summary="通过Thread类构建一个线程&#10;通过Thread类的构造函数显示的将一个任务对象(Runnable类型)附着到线程上。">
+      <created>1507386262462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507386262462</updated>
+    </task>
+    <task id="LOCAL-00003" summary="当main()创建Thread对象时，并没有捕获任何对这些线程对象的引用。&#10;如果是普通对象，垃圾回收器会对这些对象进行清理。但是对于Thread对象，情况就不同了。&#10;每个Thread都&quot;注册&quot;了它自己，因此确实有一个队它的引用，&#10;所以在线程的任务退出其run()并死亡之前，垃圾回收器都无法清除这个线程对象。">
+      <created>1507386633497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507386633497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Executor替你管理Thread对象，使你无须显示的管理线程的生命周期。&#10;&#10;这里的CachedThreadPool将为每个任务创建一个线程&#10;shutdown方法的调用防止新的任务再被提交给这个ExecutorService。但是shutdown调用之前提交的任务仍会继续运行&#10;在任何线程池中，只要存在现成可用的线程，都会被自动复用&#10;CachedThreadPool在程序执行过程中，会创建与所需数量相同的线程。在回收旧线程的时候会停止创建新的线程">
+      <created>1507387428909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507387428909</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FixedThreadPool创建固定数量的线程">
+      <created>1507421541737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507421541737</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SingleThreadExecutor相当于数量等于1的FixedThreadPool&#10;如果向SingleThreadExecutor提交了多个任务，那么这些任务将排队。&#10;每个任务都会在下一个任务开始前结束，所有任务都将使用相同的线程。">
+      <created>1507421785001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507421785001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="通过Runnable接口构造的任务，不能返回任何值。&#10;如果希望任务在完成时可以返回一个值，那么可以用Callable接口代替Runnable接口。&#10;Callable是一个具有类型参数的泛型接口，这个类型参数表示的是从call()中返回的值。&#10;必须使用ExecutorService.submit()方法启动Callable任务。submit()会返回一个Future对象。&#10;&#10;Future对象是对线程产生结果的一个包装。可以调用Future对象的get方法获取到线程产生的结果。&#10;但如果线程还没有执行完毕，即结果还没有产生，那么get方法将会阻塞，直到线程执行完毕。&#10;可以先调用Future对象的isDone方法判断线程是否已经执行完毕。如果已经执行完成，再调用get方法，&#10;这样可以避免阻塞。">
+      <created>1507423027711</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507423027711</updated>
+    </task>
+    <task id="LOCAL-00008" summary="线程睡眠要用TimeUnit.MILLISECONDS.sleep(100)这种方式，&#10;不要再使用Thread.sleep(100)这种调用方式，已经过时了。&#10;&#10;任务内部产生的异常一定要就地try-catch，因为异常不能跨线程传播，所以不能将异常throw出去">
+      <created>1507425322210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507425322210</updated>
+    </task>
+    <task id="LOCAL-00009" summary="线程优先级&#10;&#10;调度器会让优先级高的线程先执行。&#10;然而，这并不是意味着优先级低的线程不执行，优先级低的线程只是执行频率低一点。&#10;绝大多数时间里，所有线程都应该以默认的优先级运行。试图操纵线程优先级通常是一种错误。&#10;&#10;我自己在mac osx、jdk8的环境下测试，感觉设置线程的优先级对执行结果没有任何影响。也就是说设置了线程的优先级没啥用。&#10;&#10;&#10;通过调用Thread.currentThread()可以获得对驱动该任务的Thread对象的引用。">
+      <created>1507426787646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1507426787647</updated>
+    </task>
+    <task id="LOCAL-00010" summary="daemon线程&#10;&#10;当程序中所有的非daemon线程结束时，程序就会终止。daemon线程即使存在，也不影响进程的生命周期。&#10;要想设置一个线程为daemon线程，必须在线程启动之前调用setDaemon()方法，才能设置它为daemon线程。">
+      <created>1507427654683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1507427654683</updated>
+    </task>
+    <task id="LOCAL-00011" summary="通过ThreadFactory为线程池中的线程设置属性&#10;&#10;如果想为线程池中的线程设置属性(daemon、优先级、名称)，可以定制一个ThreadFactory。&#10;Executors中构建线程池的方法都可以接受一个ThreadFactory类型的参数。">
+      <created>1507431897621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1507431897621</updated>
+    </task>
+    <task id="LOCAL-00012" summary="在一个后台线程中创建的任何线程将自动被设置成后台线程&#10;&#10;可以通过调用isDaemon()方法来确定线程是否是一个后台线程&#10;&#10;正常线程中的finally语句可以保证一定执行，但是后台线程连执行finally语句的机会都不给。&#10;当最后一个非后台线程终止时，后台线程会&quot;突然&quot;终止。&#10;后台线程不是一种很好的思想。">
+      <created>1507436522606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1507436522606</updated>
+    </task>
+    <task id="LOCAL-00013" summary="不要在构造器中启动一个线程。&#10;&#10;在构造器中启动线程可能会出现问题，因为另一个任务可能会在构造器结束之前开始执行。这意味着该任务可能访问处于不稳定状态的对象。&#10;&#10;另外这里的任务没有实现Runnable接口，而是直接继承了Thread类。因为Thread类自己也实现了Runnable接口。">
+      <created>1507437724884</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1507437724884</updated>
+    </task>
+    <task id="LOCAL-00014" summary="线程与任务：&#10;&#10;Thread类自身不执行任何操作，它只是驱动赋予它的任务。&#10;Runnable接口代表一个任务，这个接口的名字选的很糟糕，如果叫做Task应该更合理。&#10;一个线程可能对应多个任务。">
+      <created>1507438402949</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1507438402949</updated>
+    </task>
+    <task id="LOCAL-00015" summary="join&#10;&#10;两个线程s和t，在线程s中调用t.join()，则s线程将会被挂起，直到t线程执行结束才能继续执行。&#10;也可以在调用join()时带上一个超时参数，这样如果目标线程在这段时间内还没有结束的话，join()方法总能返回。&#10;&#10;可以在一个线程上调用isAlive()判断一个线程是否结束，如果线程结束则返回假。">
+      <created>1507440076595</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1507440076595</updated>
+    </task>
+    <task id="LOCAL-00016" summary="不能捕获从线程中逃逸的异常。一旦异常逃出任务的run方法，它就会向外传播的控制台">
+      <created>1507440821904</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1507440821904</updated>
+    </task>
+    <task id="LOCAL-00017" summary="在线程外部处理异常&#10;&#10;要想必须在线程外部处理异常，可以实现Thread.UncaughtExceptionHandler接口构造一个线程异常处理器。&#10;可以调用Thread类的setUncaughtExceptionHandler方法为线程设置一个异常处理器。&#10;当线程中有异常没有被处理时，将自动调用异常处理器中的uncaughtException方法对异常进行处理。&#10;uncaughtException方法接收两个参数，Thread类型的参数代表发生异常的线程对象，Throwable类型的参数代表抛出的异常。">
+      <created>1507442003295</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1507442003295</updated>
+    </task>
+    <task id="LOCAL-00018" summary="多个线程共享的资源要进行同步保护，否则就会出现错误结果&#10;&#10;这里的EvenChecker作为消费者，EvenGenerator作为共享资源，IntGenerator是EvenGenerator的父类。">
+      <created>1507443771158</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1507443771158</updated>
+    </task>
+    <task id="LOCAL-00019" summary="通过添加synchronized关键字，避免多个任务同时访问同一个资源。&#10; &#10;每个对象都自动含有单一的锁，也称为监视器锁。&#10;当调用一个对象中任意的synchronized方法时，此对象都会被加锁。&#10;这时如果再调用这个对象上的其它方法，就必须等前一个方法调用完毕并释放了锁之后才能被调用。&#10;一个对象上的所有synchronized方法共享同一个锁。&#10; &#10;锁重入：一个任务可以多次获得对象的锁。只有首先获得了锁的任务才能允许继续获取多个锁。&#10; &#10;针对每个类，也有一个锁(作为类的Class对象的一部分)，所以synchronized static方法可以在类的范围内防止对static数据的并发访问。">
+      <created>1507444875070</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1507444875070</updated>
+    </task>
+    <task id="LOCAL-00020" summary="显示锁">
+      <created>1507445159042</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1507445159042</updated>
+    </task>
+    <task id="LOCAL-00021" summary="验证i++操作在java中不是原子的">
+      <created>1507447923659</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1507447923659</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ThreadLocal：&#10;&#10;ThreadLocal对象通常当作静态域存储&#10;可以通过ThreadLocal的get()和set()访问该对象中的内容&#10;get()方法将返回与其线程相关联的对象的副本&#10;set()方法会将值存储到该线程自己的存储对象中，并返回存储对象中原有的值。&#10;ThreadLocal对象是为每一个线程都分配了独有的存储，所以不会出现竞争条件。">
+      <created>1507450984126</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1507450984126</updated>
+    </task>
+    <task id="LOCAL-00023" summary="终结线程理论：&#10;&#10;相关API：&#10;interrupt()&#10;interrupted()&#10;InterruptedException&#10;submit()&#10;Future&lt;T&gt;&#10;cancel()&#10;shutdownNow()&#10;&#10;Thread类中包含了interrupt方法用于终结一个线程，为了调用interrupt方法，必须持有Thread对象的引用。&#10;如果是直接用Thread类创建的线程，那获取到这个线程对象的引用当然非常简单。&#10;如果是用ExecutorService创建线程可以用下面两种方式调用线程的interrupt方法：&#10;1.关闭线程池中的所有线程：调用ExecutorService中的shutdownNow方法,它将给它启动的所有线程发送一个interrupt()方法调用。&#10;2.关闭线程池中的单个线程：调用ExecutorService中的submit方法启动任务，会返回一个Future对象，调用Future对象上的cancel方法，并传递参数true，就会向那个线程送一个interrupt()调用。&#10;&#10;&#10;interrupt方法调用结果：&#10;调用线程的interrupt方法，会设置线程的中断状态。线程处在不同的操作，会对中断状态有不同的响应。分为下面几种情况：&#10;一、线程处于阻塞状态。&#10;&#9;阻塞状态又分为可中断阻塞和不可中断阻塞两种：&#10;&#9;可中断阻塞是指可以抛出InterruptedException异常的阻塞操作，如sleep操作。这种阻塞操作当发生中断状态被置位时(interrupt调用)，就会抛出InterruptedException异常，进而线程就会终结。&#10;&#9;不可中断阻塞是指不抛出InterruptedException异常的阻塞操作，如IO操作和Mutex操作。这种阻塞当收到中断状态置位时没有任何反应。只能关闭底层IO资源终结线程。&#10;&#9;针对mutex阻塞，可以使用ReentrantLock代替synchronized。ReentrantLock中的lockInterruptibly方法可以抛出InterruptedException异常。进而当线程的中断标志被设置时，可以退出线程。&#10;二、线程一直处于不阻塞操作&#10;&#9;如果线程一直在做计算，没有调用任何阻塞操作，则可以通过Thread的interrupted()方法检测线程的中断标志，通过该方法的返回值判断线程是否接收到interrupt通知。&#10;&#10;通过Thread的interrupt方法可以通知线程终结操作(线程的中断标志被置位)。线程收到该通知后，如果线程处于wait、sleep等阻塞操作，则该方法将抛出InterruptedException异常。&#10;如果线程没有处于阻塞操作，则线程可以通过interrupted方法检测线程是否被中断。&#10;无论是抛出InterruptedException异常还是通过interrupted方法检测中断标志后，线程的中断标志都会被恢复，以防止重复检测到线程的中断状态。">
+      <created>1507466236035</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1507466236035</updated>
+    </task>
+    <task id="LOCAL-00024" summary="通过wait、notify、notifyAll实现任务间的协作&#10;&#10;wait方法会将本任务挂起，只有在notify和notifyAll发生时，这个任务才会被唤醒并去检查所发生的变化。&#10;&#10;当一个任务在方法里遇到了对wait的调用时，执行任务的线程被挂起，对象上的synchronized锁被释放。&#10;因为wait释放锁，其它任务才有机会获得锁，该对象上的其他synchronized方法才可以在wait期间被调用。&#10;如果在wait期间不释放对象的锁，那么被阻塞的线程还占用着对象的synchronized锁，导致该线程在被wait挂起时其它线程&#10;仍无法执行synchronized方法，进而没有任何一个线程会执行notify方法，这就会导致死锁。&#10;&#10;只能在synchronized方法或synchronized块中调用wait、notify、notifyAll方法。&#10;如果在非同步代码中调用这些方法，程序能通过编译，但是在运行时会抛出IllegalMonitorStateException异常。&#10;在wait的时候要释放对象的锁，如果不事先用synchronized占有锁，那么在调用wait的时候释放什么呢？&#10;&#10;当收到notify事件，从wait中唤醒时，该任务必须首先重新获得synchronized锁，才能继续原来的代码执行。&#10;&#10;注意要用while循环包围wait()，不能使用if。因为即使线程被唤醒了，也应该检查一下条件是否满足执行的条件，如果不满足，应该继续wait。&#10;&#10;notify和notifyAll的区别：&#10;使用notify时，在锁上wait的众多任务中只有一个会被唤醒。因此如果使用notify，就必须保证被唤醒的是恰当的任务。&#10;notifyAll会唤醒所有在锁上wait的任务。被唤醒的任务需要再检查一下条件是否已经满足自己继续运行，如果不满足则应该重新wait。&#10;在本例中，不能使用notify，只能使用notifyAll。因为本例中有多个provider和consumer都在同一个锁上wait，如果使用notify，很容易唤醒不恰当的任务。&#10;例如一个provider在生产完一个box之后唤醒了另一个provider。">
+      <created>1507474205641</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1507474205641</updated>
+    </task>
+    <task id="LOCAL-00025" summary="调用condition的await、signal、signalAll实现线程的同步&#10; &#10;这里有一个坑，lock.newCondition()每次调用都会返回一个新的condition。&#10;而多个线程要共享同一个condition才能达到同步的效果(这个是当然的，只是开始时我以为lock.newCondition调用每次都返回同一个condition，才出错的)。&#10;&#10;使用condition的await、signal、signalAll与wait、notify、notifyAll一样，&#10;都要在获取到mutex锁之后才能调用，否则会抛IllegalMonitorStateException异常">
+      <created>1507475030960</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1507475030960</updated>
+    </task>
+    <task id="LOCAL-00026" summary="通过BlockingQueue实现线程间的同步：&#10;&#10;BlockingQueue不接受null元素。null被用作哨兵使用。&#10;&#10;BlockingQueue的几个方法比较：&#10;    抛出异常&#9;&#9;特殊值&#9;&#9;阻塞&#9;&#9;&#9;超时&#10;插入&#9;add(e)&#9;&#9;offer(e)&#9;put(e)&#9;&#9;offer(e, time, unit)&#10;移除&#9;remove()&#9;poll()&#9;&#9;take()&#9;&#9;poll(time, unit)&#10;检查&#9;element()&#9;peek()&#9;&#9;不可用&#9;&#9;不可用&#10;&#10;BlockingQueue的实现类：&#10;LinkedBlockingQueue：无界队列&#10;ArrayBlockingQueue：具有固定的尺寸&#10;&#10;BlockingQueue已经帮助我们做了线程间的互斥、同步等机制，所以不需要我们再显示增加类似synchronize的这种代码">
+      <created>1507476243245</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1507476243245</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113000" />
+    <option name="totallyTimeSpent" value="28845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47204968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47204968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="当main()创建Thread对象时，并没有捕获任何对这些线程对象的引用。&#10;如果是普通对象，垃圾回收器会对这些对象进行清理。但是对于Thread对象，情况就不同了。&#10;每个Thread都&quot;注册&quot;了它自己，因此确实有一个队它的引用，&#10;所以在线程的任务退出其run()并死亡之前，垃圾回收器都无法清除这个线程对象。" />
+    <MESSAGE value="Executor替你管理Thread对象，使你无须显示的管理线程的生命周期。&#10;&#10;这里的CachedThreadPool将为每个任务创建一个线程&#10;shutdown方法的调用防止新的任务再被提交给这个ExecutorService。但是shutdown调用之前提交的任务仍会继续运行&#10;在任何线程池中，只要存在现成可用的线程，都会被自动复用&#10;CachedThreadPool在程序执行过程中，会创建与所需数量相同的线程。在回收旧线程的时候会停止创建新的线程" />
+    <MESSAGE value="FixedThreadPool创建固定数量的线程" />
+    <MESSAGE value="SingleThreadExecutor相当于数量等于1的FixedThreadPool&#10;如果向SingleThreadExecutor提交了多个任务，那么这些任务将排队。&#10;每个任务都会在下一个任务开始前结束，所有任务都将使用相同的线程。" />
+    <MESSAGE value="通过Runnable接口构造的任务，不能返回任何值。&#10;如果希望任务在完成时可以返回一个值，那么可以用Callable接口代替Runnable接口。&#10;Callable是一个具有类型参数的泛型接口，这个类型参数表示的是从call()中返回的值。&#10;必须使用ExecutorService.submit()方法启动Callable任务。submit()会返回一个Future对象。&#10;&#10;Future对象是对线程产生结果的一个包装。可以调用Future对象的get方法获取到线程产生的结果。&#10;但如果线程还没有执行完毕，即结果还没有产生，那么get方法将会阻塞，直到线程执行完毕。&#10;可以先调用Future对象的isDone方法判断线程是否已经执行完毕。如果已经执行完成，再调用get方法，&#10;这样可以避免阻塞。" />
+    <MESSAGE value="线程睡眠要用TimeUnit.MILLISECONDS.sleep(100)这种方式，&#10;不要再使用Thread.sleep(100)这种调用方式，已经过时了。&#10;&#10;任务内部产生的异常一定要就地try-catch，因为异常不能跨线程传播，所以不能将异常throw出去" />
+    <MESSAGE value="线程优先级&#10;&#10;调度器会让优先级高的线程先执行。&#10;然而，这并不是意味着优先级低的线程不执行，优先级低的线程只是执行频率低一点。&#10;绝大多数时间里，所有线程都应该以默认的优先级运行。试图操纵线程优先级通常是一种错误。&#10;&#10;我自己在mac osx、jdk8的环境下测试，感觉设置线程的优先级对执行结果没有任何影响。也就是说设置了线程的优先级没啥用。&#10;&#10;&#10;通过调用Thread.currentThread()可以获得对驱动该任务的Thread对象的引用。" />
+    <MESSAGE value="daemon线程&#10;&#10;当程序中所有的非daemon线程结束时，程序就会终止。daemon线程即使存在，也不影响进程的生命周期。&#10;要想设置一个线程为daemon线程，必须在线程启动之前调用setDaemon()方法，才能设置它为daemon线程。" />
+    <MESSAGE value="为线程池中的线程设置属性&#10;&#10;如果想为线程池中的线程设置属性(daemon、优先级、名称)，可以定制一个ThreadFactory。&#10;Executors中构建线程池的方法都可以接受一个ThreadFactory类型的参数。" />
+    <MESSAGE value="通过ThreadFactory为线程池中的线程设置属性&#10;&#10;如果想为线程池中的线程设置属性(daemon、优先级、名称)，可以定制一个ThreadFactory。&#10;Executors中构建线程池的方法都可以接受一个ThreadFactory类型的参数。" />
+    <MESSAGE value="在一个后台线程中创建的任何线程将自动被设置成后台线程&#10;&#10;可以通过调用isDaemon()方法来确定线程是否是一个后台线程&#10;&#10;正常线程中的finally语句可以保证一定执行，但是后台线程连执行finally语句的机会都不给。&#10;当最后一个非后台线程终止时，后台线程会&quot;突然&quot;终止。&#10;后台线程不是一种很好的思想。" />
+    <MESSAGE value="不要在构造器中启动一个线程。&#10;&#10;在构造器中启动线程可能会出现问题，因为另一个任务可能会在构造器结束之前开始执行。这意味着该任务可能访问处于不稳定状态的对象。&#10;&#10;另外这里的任务没有实现Runnable接口，而是直接继承了Thread类。因为Thread类自己也实现了Runnable接口。" />
+    <MESSAGE value="线程与任务：&#10;&#10;Thread类自身不执行任何操作，它只是驱动赋予它的任务。&#10;Runnable接口代表一个任务，这个接口的名字选的很糟糕，如果叫做Task应该更合理。&#10;一个线程可能对应多个任务。" />
+    <MESSAGE value="join&#10;&#10;两个线程s和t，在线程s中调用t.join()，则s线程将会被挂起，直到t线程执行结束才能继续执行。&#10;也可以在调用join()时带上一个超时参数，这样如果目标线程在这段时间内还没有结束的话，join()方法总能返回。&#10;&#10;可以在一个线程上调用isAlive()判断一个线程是否结束，如果线程结束则返回假。" />
+    <MESSAGE value="不能捕获从线程中逃逸的异常。一旦异常逃出任务的run方法，它就会向外传播的控制台" />
+    <MESSAGE value="在线程外部处理异常&#10;&#10;要想必须在线程外部处理异常，可以实现Thread.UncaughtExceptionHandler接口构造一个线程异常处理器。&#10;可以调用Thread类的setUncaughtExceptionHandler方法为线程设置一个异常处理器。&#10;当线程中有异常没有被处理时，将自动调用异常处理器中的uncaughtException方法对异常进行处理。&#10;uncaughtException方法接收两个参数，Thread类型的参数代表发生异常的线程对象，Throwable类型的参数代表抛出的异常。" />
+    <MESSAGE value="多个线程共享的资源要进行同步保护，否则就会出现错误结果&#10;&#10;这里的EvenChecker作为消费者，EvenGenerator作为共享资源，IntGenerator是EvenGenerator的父类。" />
+    <MESSAGE value="通过添加synchronized关键字，避免多个任务同时访问同一个资源。&#10; &#10;每个对象都自动含有单一的锁，也称为监视器锁。&#10;当调用一个对象中任意的synchronized方法时，此对象都会被加锁。&#10;这时如果再调用这个对象上的其它方法，就必须等前一个方法调用完毕并释放了锁之后才能被调用。&#10;一个对象上的所有synchronized方法共享同一个锁。&#10; &#10;锁重入：一个任务可以多次获得对象的锁。只有首先获得了锁的任务才能允许继续获取多个锁。&#10; &#10;针对每个类，也有一个锁(作为类的Class对象的一部分)，所以synchronized static方法可以在类的范围内防止对static数据的并发访问。" />
+    <MESSAGE value="显示锁" />
+    <MESSAGE value="验证i++操作在java中不是原子的" />
+    <MESSAGE value="ThreadLocal：&#10;&#10;ThreadLocal对象通常当作静态域存储&#10;可以通过ThreadLocal的get()和set()访问该对象中的内容&#10;get()方法将返回与其线程相关联的对象的副本&#10;set()方法会将值存储到该线程自己的存储对象中，并返回存储对象中原有的值。&#10;ThreadLocal对象是为每一个线程都分配了独有的存储，所以不会出现竞争条件。" />
+    <MESSAGE value="终结线程理论：&#10;&#10;相关API：&#10;interrupt()&#10;interrupted()&#10;InterruptedException&#10;submit()&#10;Future&lt;T&gt;&#10;cancel()&#10;shutdownNow()&#10;&#10;Thread类中包含了interrupt方法用于终结一个线程，为了调用interrupt方法，必须持有Thread对象的引用。&#10;如果是直接用Thread类创建的线程，那获取到这个线程对象的引用当然非常简单。&#10;如果是用ExecutorService创建线程可以用下面两种方式调用线程的interrupt方法：&#10;1.关闭线程池中的所有线程：调用ExecutorService中的shutdownNow方法,它将给它启动的所有线程发送一个interrupt()方法调用。&#10;2.关闭线程池中的单个线程：调用ExecutorService中的submit方法启动任务，会返回一个Future对象，调用Future对象上的cancel方法，并传递参数true，就会向那个线程送一个interrupt()调用。&#10;&#10;&#10;interrupt方法调用结果：&#10;调用线程的interrupt方法，会设置线程的中断状态。线程处在不同的操作，会对中断状态有不同的响应。分为下面几种情况：&#10;一、线程处于阻塞状态。&#10;&#9;阻塞状态又分为可中断阻塞和不可中断阻塞两种：&#10;&#9;可中断阻塞是指可以抛出InterruptedException异常的阻塞操作，如sleep操作。这种阻塞操作当发生中断状态被置位时(interrupt调用)，就会抛出InterruptedException异常，进而线程就会终结。&#10;&#9;不可中断阻塞是指不抛出InterruptedException异常的阻塞操作，如IO操作和Mutex操作。这种阻塞当收到中断状态置位时没有任何反应。只能关闭底层IO资源终结线程。&#10;&#9;针对mutex阻塞，可以使用ReentrantLock代替synchronized。ReentrantLock中的lockInterruptibly方法可以抛出InterruptedException异常。进而当线程的中断标志被设置时，可以退出线程。&#10;二、线程一直处于不阻塞操作&#10;&#9;如果线程一直在做计算，没有调用任何阻塞操作，则可以通过Thread的interrupted()方法检测线程的中断标志，通过该方法的返回值判断线程是否接收到interrupt通知。&#10;&#10;通过Thread的interrupt方法可以通知线程终结操作(线程的中断标志被置位)。线程收到该通知后，如果线程处于wait、sleep等阻塞操作，则该方法将抛出InterruptedException异常。&#10;如果线程没有处于阻塞操作，则线程可以通过interrupted方法检测线程是否被中断。&#10;无论是抛出InterruptedException异常还是通过interrupted方法检测中断标志后，线程的中断标志都会被恢复，以防止重复检测到线程的中断状态。" />
+    <MESSAGE value="通过wait、notify、notifyAll实现任务间的协作&#10;&#10;wait方法会将本任务挂起，只有在notify和notifyAll发生时，这个任务才会被唤醒并去检查所发生的变化。&#10;&#10;当一个任务在方法里遇到了对wait的调用时，执行任务的线程被挂起，对象上的synchronized锁被释放。&#10;因为wait释放锁，其它任务才有机会获得锁，该对象上的其他synchronized方法才可以在wait期间被调用。&#10;如果在wait期间不释放对象的锁，那么被阻塞的线程还占用着对象的synchronized锁，导致该线程在被wait挂起时其它线程&#10;仍无法执行synchronized方法，进而没有任何一个线程会执行notify方法，这就会导致死锁。&#10;&#10;只能在synchronized方法或synchronized块中调用wait、notify、notifyAll方法。&#10;如果在非同步代码中调用这些方法，程序能通过编译，但是在运行时会抛出IllegalMonitorStateException异常。&#10;在wait的时候要释放对象的锁，如果不事先用synchronized占有锁，那么在调用wait的时候释放什么呢？&#10;&#10;当收到notify事件，从wait中唤醒时，该任务必须首先重新获得synchronized锁，才能继续原来的代码执行。&#10;&#10;注意要用while循环包围wait()，不能使用if。因为即使线程被唤醒了，也应该检查一下条件是否满足执行的条件，如果不满足，应该继续wait。&#10;&#10;notify和notifyAll的区别：&#10;使用notify时，在锁上wait的众多任务中只有一个会被唤醒。因此如果使用notify，就必须保证被唤醒的是恰当的任务。&#10;notifyAll会唤醒所有在锁上wait的任务。被唤醒的任务需要再检查一下条件是否已经满足自己继续运行，如果不满足则应该重新wait。&#10;在本例中，不能使用notify，只能使用notifyAll。因为本例中有多个provider和consumer都在同一个锁上wait，如果使用notify，很容易唤醒不恰当的任务。&#10;例如一个provider在生产完一个box之后唤醒了另一个provider。" />
+    <MESSAGE value="调用condition的await、signal、signalAll实现线程的同步&#10; &#10;这里有一个坑，lock.newCondition()每次调用都会返回一个新的condition。&#10;而多个线程要共享同一个condition才能达到同步的效果(这个是当然的，只是开始时我以为lock.newCondition调用每次都返回同一个condition，才出错的)。&#10;&#10;使用condition的await、signal、signalAll与wait、notify、notifyAll一样，&#10;都要在获取到mutex锁之后才能调用，否则会抛IllegalMonitorStateException异常" />
+    <MESSAGE value="通过BlockingQueue实现线程间的同步：&#10;&#10;BlockingQueue不接受null元素。null被用作哨兵使用。&#10;&#10;BlockingQueue的几个方法比较：&#10;    抛出异常&#9;&#9;特殊值&#9;&#9;阻塞&#9;&#9;&#9;超时&#10;插入&#9;add(e)&#9;&#9;offer(e)&#9;put(e)&#9;&#9;offer(e, time, unit)&#10;移除&#9;remove()&#9;poll()&#9;&#9;take()&#9;&#9;poll(time, unit)&#10;检查&#9;element()&#9;peek()&#9;&#9;不可用&#9;&#9;不可用&#10;&#10;BlockingQueue的实现类：&#10;LinkedBlockingQueue：无界队列&#10;ArrayBlockingQueue：具有固定的尺寸&#10;&#10;BlockingQueue已经帮助我们做了线程间的互斥、同步等机制，所以不需要我们再显示增加类似synchronize的这种代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过BlockingQueue实现线程间的同步：&#10;&#10;BlockingQueue不接受null元素。null被用作哨兵使用。&#10;&#10;BlockingQueue的几个方法比较：&#10;    抛出异常&#9;&#9;特殊值&#9;&#9;阻塞&#9;&#9;&#9;超时&#10;插入&#9;add(e)&#9;&#9;offer(e)&#9;put(e)&#9;&#9;offer(e, time, unit)&#10;移除&#9;remove()&#9;poll()&#9;&#9;take()&#9;&#9;poll(time, unit)&#10;检查&#9;element()&#9;peek()&#9;&#9;不可用&#9;&#9;不可用&#10;&#10;BlockingQueue的实现类：&#10;LinkedBlockingQueue：无界队列&#10;ArrayBlockingQueue：具有固定的尺寸&#10;&#10;BlockingQueue已经帮助我们做了线程间的互斥、同步等机制，所以不需要我们再显示增加类似synchronize的这种代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/MainThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/CachedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/FixThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/TaskWithResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/SimpleDaemons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#487#503#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/SleepingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/SimplePriorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/SingleThreadExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/DaemonThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/DaemonFromFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/SimpleThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#379#380#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/Daemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1844" column="21" lean-forward="false" selection-start-line="1844" selection-start-column="21" selection-end-line="1844" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/CaptureUncaugthException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#634#635#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/ExceptionThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#246#247#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/Joining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/b/SerialNumberChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#632#633#0" expanded="false" />
+            <element signature="e#1171#1172#0" expanded="false" />
+            <element signature="e#1208#1209#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/b/IntGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManipulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/critial_section/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManager1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/critial_section/PairChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/critial_section/PairManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="false" />
+            <element signature="e#4336#4337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/a/LiftOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/c/终结线程理论.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/c/终结线程理论">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/c/Accessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#1243#1393#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/b/EvenChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/b/EvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/b/MutexEvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="500" column="22" lean-forward="false" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="230" column="9" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/d/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/d/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2633#2634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="397" column="13" lean-forward="false" selection-start-line="397" selection-start-column="13" selection-end-line="397" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="261" column="6" lean-forward="false" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinking/in/java/d/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#186#193#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
