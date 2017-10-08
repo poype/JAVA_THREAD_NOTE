@@ -26,12 +26,12 @@ public class EvenChecker implements Runnable {
         }
     }
 
-	public static void main(String[] args) {
-		IntGenerator generator = new EvenGenerator(); // generator被多个线程共享
-		ExecutorService exec = Executors.newCachedThreadPool();
-		for(int i = 0 ; i < 10 ; i++) {
-			exec.execute(new EvenChecker(generator,i));
-		}
-		exec.shutdown();
-	}
+    public static void main(String[] args) {
+        IntGenerator generator = new MutexEvenGenerator();
+        ExecutorService exec = Executors.newCachedThreadPool();
+        for(int i = 0 ; i < 10 ; i++) {
+            exec.execute(new EvenChecker(generator,i));
+        }
+        exec.shutdown();
+    }
 }
