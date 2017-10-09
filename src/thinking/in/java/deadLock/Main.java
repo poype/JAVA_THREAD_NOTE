@@ -10,9 +10,12 @@ public class Main {
         for(int i = 0 ; i < 5 ; i++) {
             chops[i] = new Chopstick(i);
         }
-        for(int i = 0 ; i < 5 ; i++) {
+        for(int i = 0 ; i < 4 ; i++) {
             exec.execute(new Philosopher(chops[i],chops[(i+1)%5],i));
         }
+        // 让最后一个哲学家先拿右手边的筷子，再拿左手边的筷子
+        // 这样就避免了循环等待，破坏了死锁发生的条件
+        exec.execute(new Philosopher(chops[0],chops[4],4));
         exec.shutdown();
     }
 }
