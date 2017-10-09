@@ -10,8 +10,11 @@ public class Main {
         //因为下面有3个PreTask任务要先执行完，所以CountDownLatch计数器被初始化为3.
         CountDownLatch latch = new CountDownLatch(3);
         ExecutorService exec = Executors.newCachedThreadPool();
-        //启动一个LastTask任务，这个任务需要等待3个PreTask任务全部执行完后才能开始执行
-        exec.execute(new LastTask(latch));
+        //多个线程等待一组事件发生
+        for(int j = 0 ; j < 5 ; j++) {
+            exec.execute(new LastTask(latch));
+        }
+
         //启动三个PreTask任务，这三个任务的工作时间不同。
         for(int i = 1 ; i <= 3 ; i++) {
             exec.execute(new PreTask(latch,i));
