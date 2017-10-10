@@ -1,0 +1,119 @@
+public interface Executor {
+    void execute(Runnable command);
+}
+Executor将任务的提交过程与执行过程解耦开来，Runnable表示任务。
+你只需要将任务提交给Executor框架就可以了，具体如何执行，由Executor不同的实现类决定。
+
+线程池：管理一组同构工作线程的资源池。注意同构
+线程池要维护一个工作队列，在工作队列中保存了所有等待执行的任务。
+工作线程从队列中获取一个任务，执行任务，然后返回线程池等待下一个任务的到来。
+
+public interface ExecutorService {
+    void shutdown();
+    List<Runnable> shutdownNow();
+    boolean isShutdown();
+    boolean isTerminated();
+    boolean awaitTermination(long timeout, TimeUnit unit)
+    <T> Future<T> submit(Callable<T> task);
+    <T> Future<T> submit(Runnable task, T result);
+    Future<?> submit(Runnable task);
+    invokeAll
+    invokeAny
+}
+ExecutorService在Executor的基础上添加了用于生命周期管理的方法
+shutdown方法执行平缓的关闭过程——不再接受新的任务，等待已经提交的任务执行完成(包括那些还未开始执行的任务)。
+                             其实只是不能再提交新的任务而已，对已经提交过的任务没有影响。
+shutdownNow方法执行粗暴的关闭——向所有运行中的线程发送interrupt事件，并且不再启动队列中尚未开始执行的任务。
+
+shutdown和shutdownNow只是向ExecutorService发送了一个关闭的指令，等所有任务都完成后，ExecutorService才能
+进入到真正的终止状态。可以调用awaitTermination等待ExecutorService到达终止状态，或者通过isTerminated轮询
+ExecutorService是否已经终止。
+下面的代码在调用shutdown之后马上调用了awaitTermination方法，产生了同步关闭ExecutorService的效果。
+public void stop() {
+    try {
+        exec.shutdown();
+        exec.awaitTermination(TIMEOUT, UNIT);
+    }
+    . . .
+}
+
+
+延迟任务与周期任务：
+不要使用Timer类：
+Timer在执行所有定时任务时只会创建一个线程，如果某个任务的执行时间过长，那么将破坏其它TimerTask的定时精确性。
+TimerTask抛出未检查异常时将终止定时线程。Timer也不会恢复线程的执行，而是错误的认为整个Timer都被取消了。
+可以考虑使用ScheduledThreadPoolExecutor代替Timer
+
+
+只有当任务都是同类型的并且相互独立时，线程池的性能才能达到最佳。
+如果将运行时间较长的和运行时间较短的任务混合在一起，可能会造成阻塞。
+如果把一个任务和这个任务依赖的任务都提交到同一个线程池，可能会导致死锁。
+如果有多个类型的任务需要执行，并且各类任务之间的行为相差很大，那么应该考虑使用多个线程池
+
+
+设置线程池的大小：
+可以利用Runtime.availableProcessors动态计算线程池中线程的数量。
+计算线程池的大小需要考虑的因素：CPU数量、内存大小，任务类型(计算密集型 or I/O密集型)。
+计算密集型的任务：在拥有N个CPU的系统上，线程池的大小为N+1。任务有可能会因为页缺失故障而暂停，多一个额外
+                的线程能确保CPU的时钟周期不会被浪费。
+包含I/O操作的任务：线程并不会一直执行，因此线程池的规模应该更大。需要估算一下任务的等待时间和计算时间的比值。
+                 也可以分别设置不同大小的线程池来运行应用程序，观察CPU利用率的水平。
+CPU的数量是N，目标CPU利用率U，等待时间和计算时间的比值W/C
+线程池的大小应该为： N * U * (1 + W/C)
+对上面的公式进行解释：N * U就是你可以使用的CPU资源总量。也可以理解为能使用的CPU个数。
+                   一个任务的等待时间是W，计算时间是C，那么单位时间内单个CPU最多能处理的任务数就是 (W + C) / C
+                   所以线程的数量就应该是：可用的CPU数量 * 单个CPU在单位时间内处理的任务数
+                                        即 N * U * (W + C) / C == N * U * (1 + W/C)
+对于CPU以外的资源对线程池大小的影响，如内存、文件句柄、数据库连接等：
+计算每个任务对该资源的需求量，然后用该资源的可用总量除以每个任务的需求量，所得的结果就是线程池大小的上限。注意是上限。
+
+
+ThreadPoolExecutor是线程池真正的类，Executors中的很多方法创建的都是这个类的对象。它的构造函数如下：
+public ThreadPoolExecutor(int corePoolSize,
+                          int maximumPoolSize,
+                          long keepAliveTime,
+                          TimeUnit unit,
+                          BlockingQueue<Runnable> workQueue,
+                          ThreadFactory threadFactory,
+                          RejectedExecutionHandler handler)
+corePoolSize：线程池的基本大小。即在没有任务执行时线程池的大小
+maximumPoolSize：线程池的最大大小。只有在workQueue满了的情况下才会创建超出corePoolSize这个数量的线程。
+keepAliveTime：如果某个线程的空闲时间超过keepAliveTime，那么将被标记为可回收的。
+workQueue：如果新请求的到达速率超过了线程池的处理速率，那么新到来的请求会在workQueue排队等待被处理。
+           队列的类型有3中：有界队列、无界队列、同步移交。
+           可以使用不同类型的队列调整任务的执行顺序，例如PriorityBlockingQueue这个队列将根据优先级安排任务。
+RejectedExecutionHandler：对于有界workQueue，如果队列被填满后，RejectedExecutionHandler将发挥作用
+                          有多种RejectedExecutionHandler的实现提供不同的饱和策略，包括AbortPolicy、CallerRunsPolicy、DiscardPolicy
+                          AbortPolicy是默认的饱和策略，该策略抛出未检查异常RejectedExecutionException。
+                          DiscardPolicy策略会悄悄抛弃这个任务。
+
+newFixedThreadPool工厂方法将corePoolSize和maximumPoolSize设置为同一个值。采用了一个无界队列workQueue。
+public static ExecutorService newFixedThreadPool(int nThreads) {
+    return new ThreadPoolExecutor(nThreads,
+                                  nThreads,
+                                  0L,
+                                  TimeUnit.MILLISECONDS,
+                                  new LinkedBlockingQueue<Runnable>());
+}
+
+newCachedThreadPool工厂方法将线程池基本大小设置为0，最大大小设置为Integer.MAX_VALUE，线程空闲超时为1分钟。采用了同步移交的workQueue
+所以创建出的线程池可以无限扩大，并且当需求降低时会自动收缩。
+public static ExecutorService newCachedThreadPool() {
+        return new ThreadPoolExecutor(0,
+                                      Integer.MAX_VALUE,
+                                      60L,
+                                      TimeUnit.SECONDS,
+                                      new SynchronousQueue<Runnable>());
+}
+这里要注意只有在workQueue满了的情况下，才会创建多于corePoolSize的线程。
+所以如果线程池的大小为0，并且其workQueue有一定的容量，那么当把任务提交给线程池时，只有当workQueue满之后，才会开始执行任务。这肯定是错误的。
+newCachedThreadPool是因为使用了SynchronousQueue作为其工作队列才避免了这种情况。
+SynchronousQueue并不是一个真正的队列，而是一种在线程之间进行移交的机制。要将一个元素放入SynchronousQueue中，必须有另一个线程正在等待
+接收这个元素。如果没有线程正在等待，并且线程池的当前大小小于maximumPoolSize，那么ThreadPoolExecutor将创建一个新的线程。
+否则根据饱和策略，这个任务将被拒绝。
+
+
+
+
+
+
