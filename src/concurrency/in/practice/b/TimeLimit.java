@@ -21,6 +21,7 @@ public class TimeLimit {
         long endNanos = System.nanoTime() + TIME_BUDGET;
         ExecutorService exec = Executors.newFixedThreadPool(3);
         Future<String> future = exec.submit(new Task());
+        exec.shutdown(); //如果没有这句代码，线程池中的线程会一直存在，影响jvm退出
         String value;
         try {
             long timeLeft = endNanos - System.nanoTime();
@@ -58,6 +59,12 @@ class Task implements Callable<String> {
  这样可以给用户更好的体验。
 
  Callable有时比Runnable更有用
+ */
+
+/*
+ 还记得昨天发现的，程序执行完之后并没有退出，要等很久才能退出。
+ 这时因为你没有调用exec.shutdown()，会导致线程池中的线程一直存在。
+ 所以你自己的代码执行完了，但是还有非daemon的线程存在，所以jvm一直不能退出
  */
 
 
